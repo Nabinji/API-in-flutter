@@ -1,6 +1,7 @@
-import 'package:api_in_flutter/model.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
+
+import 'model/model.dart';
 
 class ApiIntegration extends StatefulWidget {
   const ApiIntegration({Key? key}) : super(key: key);
